@@ -35,6 +35,7 @@ console.log(dog.name);
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
+console.log(dog["color"]);
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
 /*
@@ -43,12 +44,22 @@ console.log(dog.name);
 */
 
 //Code here
+// const favoriteThings = {
+//   band: "Cigarettes After Sex",
+//   food: "spicy rice noodles",
+//   person: "my girlfriend",
+//   book: "Mrs Dalloway",
+//   movie: "Grinch",
+//   holiday: "Christmas",
+// };
 
-/*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
-*/
+// /*
+//   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
+// */
 
-//Code here
+// //Code here
+// favoriteThings.car = "BMW 7 Series";
+// favoriteThings.show = "90 Day Fiance";
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
