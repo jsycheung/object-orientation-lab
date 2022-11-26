@@ -114,6 +114,11 @@ function greeting(obj) {
 */
 
 //Code Here
+function totalPopulation(obj) {
+  const { utah, california, texas, arizona } = obj;
+  const sum = utah + california + texas + arizona;
+  return sum;
+}
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
