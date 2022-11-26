@@ -157,6 +157,8 @@ var user = {
 */
 
 //Code Here
+user.name = "Bryan G. Smith";
+user.email = "bryan.smith@devmounta.in";
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
@@ -164,6 +166,7 @@ var user = {
 */
 
 //Code Here
+delete user.age;
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
@@ -173,6 +176,15 @@ var user = {
 */
 
 //Code here
+class Cat {
+  constructor(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+}
+const cat1 = new Cat("Jamie", 2, "white");
+console.log(cat1.name);
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
@@ -183,6 +195,20 @@ var user = {
 */
 
 //Code here
+class Wizard {
+  constructor(name, age, favoriteSpell) {
+    this.name = name;
+    this.age = age;
+    this.favoriteSpell = favoriteSpell;
+  }
+
+  castSpell() {
+    console.log(`${this.name} has cast ${this.favoriteSpell}`);
+  }
+}
+
+const wizard1 = new Wizard("Gabby", 30, "freeze");
+wizard1.castSpell();
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
